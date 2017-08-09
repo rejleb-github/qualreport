@@ -1,0 +1,60 @@
+\documentclass{NSF}
+
+\graphicspath{{figures/}}
+\usepackage{biblatex}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{textcomp}
+\usepackage{courier}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\addbibresource{references.bib}
+\bibliography{references}
+
+\def\memorl#1{\color{green}$RL[${\bf #1}$]$ \color{black}}
+\newcommand{\reb}{{\sc \tt REBOUND}\xspace}
+\begin{document}
+
+% A. Cover Sheet
+% A number of the boxes contained on the Cover Sheet are
+% electronically pre-filled as part of the FastLane login process
+% Complete the rest of your info there
+
+
+
+% B. Project Summary
+\title{Ph.D. Qualifications Exam}
+\newsection{A}
+\input{sections/introstatement}
+
+\newsection{B}
+\input{sections/summary}
+
+% C. Table of Contents 
+% A Table of Contents is automatically generated for the proposal by FastLane
+
+% D. Project Description
+\newpage\newsection{C}
+\input{sections/description}
+
+%  H. Current and Pending Support
+\newpage\newsection{D}
+\input{sections/support}
+
+% E. References Cited
+\newpage\newsection{F}
+\renewcommand\refname{References Cited}
+
+% I prefer to use the IEEE bibliography style. 
+% That's  NOT required by the NSF guidelines. 
+% Feel Free to use whatever style you prefer
+%\bibliographystyle{IEEEtran}
+%\bibliographystyle{IEEEtran}
+%\printbibliography
+
+\end{document}
