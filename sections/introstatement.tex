@@ -1,6 +1,21 @@
-\section{Objective/Thesis Statement}
-\subsection{Statement}
-\textbf{I aim to refine current exoplanet datasets and improve parameter inference where possible. I will achieve this using a unified and modular framework which consider Langevin techniques and others}
+\section{Combining Transit Timing and Radial Velocity Data to constrain dynamical properties of Exoplanetary Systems}
 
-\subsection{Background Information}
-Very basic explanation of RV and TTV. This is to whatever minimum context is needed for the overview.
+\subsection{Abstract}
+TTVs have contributed significantly to constraining masses and orbital parameters of multi-planetary systems.
+Combing TTV with Radial Velocity will further constrain the parameter space but so far has only been done for XX system. 
+This is important because we want to measure the planet properties such as mass and radius with high precision to understand the planet formation and planet interior structure. 
+Future space and ground based missions will provide more data to be analyzed.
+
+For my thesis, I propose to write a pipeline to analyze these different dataset together. 
+This is non-trivial because of a highly complex parameter space.
+The algorithm that I plan to use will be at least as fast as TTVFast.
+I plan to combine the TTVFast-like algorithm with a novel MCMC.
+The MCMC will make use of a Riemannian manifold on the log likelihood space.
+
+As a first step I will reproduce the TTV masses for the Trappist 1 system. 
+I will confirm the decrease in mass when more data is added.
+I will try to understand if there are systematic effects favouring large masses.
+In the next step, I will try to simultaneously fit RV and TTV for one specific system. 
+The goal two-fold 1) obtain precise parameters for the transiting planets, 2) rigorously constrain the orbits of additional previously unseen planets with the hope of discovering new planets.
+
+The long-term goal is to do this kind of analysis for an ensemble of systems and draw statistical conclusions about the planet population.
