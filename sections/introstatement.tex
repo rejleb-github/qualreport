@@ -2,20 +2,25 @@
 
 \subsection{Abstract}
 TTVs have contributed significantly to constraining masses and orbital parameters of multi-planetary systems.
-Combing TTV with Radial Velocity will further constrain the parameter space but so far has only been done for XX system. 
-This is important because we want to measure the planet properties such as mass and radius with high precision to understand the planet formation and planet interior structure. 
-Future space and ground based missions will provide more data to be analyzed.
+So far, only 25 exoplanets have been detected using TTV among the thousands found through transits.
+Combining TTV with Radial Velocity we can further constrain the parameter space.
+This type of analysis is fundamentally necessary to measure the planet properties such as mass and radius with high precision, which can be used to understand the planet formation processes and planet interior structure. 
+Along with the current large datasets, future space and ground based missions will provide more data to be analyzed.
 
-For my thesis, I propose to write a pipeline to analyze these different dataset together. 
-This is non-trivial because of a highly complex parameter space.
-The algorithm that I plan to use will be at least as fast as TTVFast.
-I plan to combine the TTVFast-like algorithm with a novel MCMC.
-The MCMC will make use of a Riemannian manifold on the log likelihood space.
+For my thesis, I propose to write a pipeline to analyze these different dataset together to provide a self-consistent and easily reproducible analysis. 
+The long-term goal is to do this kind of analysis for an ensemble of systems and draw statistical conclusions about the planet population.
+To tightly contrain the parameter space is non-trivial because of its highly complex nature.
+I plan to combine the TTVFast-like algorithm with a novel MCMC to provide the fastest possible level of analysis.
+The algorithms that I plan to use will be at least as fast as TTVFast but implemented in the open source \reb rather than custom libraries.
+This makes the code highly modular with a collection of integrators available, this allows for further optemizations for accuracy or computing time.
+The MCMC considered in the pipeline will make use of a Riemannian manifold on the log likelihood space.
 
 As a first step I will reproduce the TTV masses for the Trappist 1 system. 
-I will confirm the decrease in mass when more data is added.
+I will confirm the decrease in mass when more data is added as observed in \cite{1704.04290}.
 I will try to understand if there are systematic effects favouring large masses.
-In the next step, I will try to simultaneously fit RV and TTV for one specific system. 
-The goal two-fold 1) obtain precise parameters for the transiting planets, 2) rigorously constrain the orbits of additional previously unseen planets with the hope of discovering new planets.
-
-The long-term goal is to do this kind of analysis for an ensemble of systems and draw statistical conclusions about the planet population.
+In the next step, I will try to simultaneously fit RV and TTV for one system of interest. 
+The goal two-fold:
+\begin{enumerate} 
+	\item Obtain precise parameters for the transiting planets in emerging datasets.
+	\item Rigorously constrain the orbits of additional previously unseen planets with the hope of discovering new planets.
+\end{enumerate}
