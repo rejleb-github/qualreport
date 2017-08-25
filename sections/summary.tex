@@ -1,37 +1,45 @@
 \section{Project Summary}
 \subsection{Overview}
-The ultimate purpose of this project is to create a unified framework to analyze TTV and RV datasets, and do Bayesian inference on the orbital parameters.
-This new pipeline opens up a few research opportunities.
-The main objective of the project is to [...]
-From there I can also [...]
+While there are many methods for observing exoplanets, the ones considered in this work are transit timing variations (TTV) and radial velocity (RV). 
+TTVs are observed when at least one planet in a multiplanet system transit over a star. 
+In a 2-body setting the transits occur with a perfect period, but when other bodies interact with the transiting planet, we obtain variations in the transit time.
+By measuring these subtle variations in timing, we can infer the number of planets present in the system and their orbital parameters.
+Radial velocity surveys are done by measuring the Doppler shift experienced by a star as one or more exoplanets dynamically interact with it.
 
-\subsection{Overview} 
+
+Both of these discovery methods use analytical, but more often, N-body simulations to carry out inference on the orbital parameters.
+This project aims to create a unified framework to analyze TTV and RV datasets together, and perform Bayesian inference on the orbital parameters.
+This inference is typically done with Monte Carlo Markov Chains (MCMC).
+This approach is considered by other researchers in the field [reference].
+This pipeline will be coupled with \reb and make use of its variational equations to open up research opportunities which have not been previously considered.
+The main physics objective of the project is to discover and reanalyze planetary systems in order to do a statistical analysis on the population detectable by TTV and RV in a single unified framework 
+Some studies have benefited of additional data and revisits [reference Trappist-1 mass change].
+This sort of analysis will allow us to probe dynamical constraints on planetary systems and provide clues on their formation process in a self-consistent manner.
+As supplementary objectives, we aim to develop faster MCMC methods with the use of second order variational equations.
+We will also explore various hybrid MCMC methods which will be optimized for this problem.
+This analysis will also produce good Bayesian priors for future analysis of systems discovered by TTV or RV.
+
+
+We plan on making the statistical data generated from the inference available publicly on the Open Exoplanet Catalog in the interest of scientific repeatability.
+This study can utilize data from the many sources, including future missions which may release new data in the scope of this PhD program. 
+The datasets of interest are listed below.
 \begin{enumerate}
-  \item Provide a unified framework for fast MCMC techniques which uses both TTV and RV which is used to do bayesian inference on the parameters, this pipeline can then be used for future missions.
-  \item New and Hybrid MCMC will be investiged. Main focus on adding Langevin based MCMCs (This is novel, paper in works on Simple SMALA).
-  \item Analyze data from various exoplanet search projects to detect missed TTV (or refine RV?). The main dataset to be reanalysed will be Kepler but the total set of missions/projects which could provide data include: \memorl{Red/color to highlight main dataset of interest?}
-      \begin{enumerate}
       \item Ground Based
-      		\begin{enumerate}
+		\begin{enumerate}
       		\item HARPS
       		\item HATNet Projects
       		\item SuperWASP
       		\end{enumerate}
       \item Space Missions
       		\begin{enumerate}
-            \item COROT
-      		\item \textcolor{red}{Kepler/K2}
+            	\item COROT
+      		\item Kepler/K2
            	\item CHEOPS
       		\item TESS
-            \item JWST
+           	 \item JWST
       		\end{enumerate}
-      \end{enumerate}
-  \item This is how we complete our objective: improve inferences on planet population detectable from TTV and RV This is useful for doing dynamic studies and provides insight or clues about potential planet formation mechanism for the target population.
-  \item I can then do an in-depth investigation on select systems which feature unusual transit or dynamical features.
-  \item Enhance the open exoplanet catalogue by providing MCMC dataset results, allowing others to perform desired Bayesian analysis with minimal computational cost. Especially good from a reproducibility perspective, hence scientific merit.
-  \item Additionally, these inferences on orbital elements give us a collection of posteriors which can be used to provide universal MCMC priors for this target population as we aim to process a considerable volume of systems.
-\end{enumerate}
-
+ \end{enumerate}
+We will operate mostly on the Kepler data in hopes of finding previously missed systems with TTVs, along with the new incoming data from the JWST mission.
 
 \subsection{Intellectual Merit} 
 Expand on points 4 and 5. Apprx. 2 paragraphs.
