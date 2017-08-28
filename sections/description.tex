@@ -1,14 +1,33 @@
 \section{Detailed Project Description}
 \subsection{Proposed Study}
-Half a page of more on what we plan on doing and how it ties into dynamics and planet formation theory.
+We propose to build a data pipeline which is in part similar to TTVFast which uses N-body integration to give TTV and RV predictions. 
+However, by using \reb we can include more tools and effects in our calculations such as variational equations and GR effects.
+With this in place, I will perform an in-depth investigate a system.
+
+
+We are going to couple the \reb code with a framework allowing the use of various MCMC.
+This will give us a chance to potentially explore new MCMC techniques that use variational equations, this should ultimately lead to a speed up in the time required to perform inference.
+By reducing the computational cost associated with this analysis, we hope to be able to look at large scale planetary statistics in a reasonably efficient manner.
+
+
+With this new data in hand, we can help bridge the observational works with the current planetary formation theory.
+Rather than considering each system case by case, we hope to say more about how (in)consistent current formation theory is with regards to the set of all TTV and RV observations to date.
 \subsection{Proposed Timeline}
 \begin{itemize}
 	\item January 2018: Complete implementation of TTV.
-	\item June 2018: In-depth investigation of a particular system.
+	\item June 2018: In-depth investigation of a particular system as a trial.
 	\item January 2019: Investigate new MCMC methods and speed optimizations.
 	\item September 2020: Create database and process large scale TTV/RV data.
 	\item August 2021: Thesis defense.
 \end{itemize}
-Include a sample PhD. timeline (From Setptember 2017 to August 2021 \memorl{Need to double check with Krystyna that this is when funding runs out.}
+
 \subsection{Technical Details}
-Half a page detailing the technical details of the pipeline.
+The main technical innovation we hope to achieve is to do is to explore the use Langevin MCMC methods in the N-body family of problems. 
+Langevin MCMC methods use the Hessian of the likelihood to efficiently explore the parameter space. 
+There are many ways of obtaining or implementing this information, such as using an empirical Hessian or using variational equations. 
+We hope to create an algorithm which uses this information effectively and can be parallelized in the context of exoplanets.
+
+Once we combine data on all systems with TTV and RV, we can perform statistical inference on the individual orbital parameters.
+For example, it is believed that planetary eccentricity follows a Beta distribution [reference].
+However, since we will have generated MCMC chains for all samples, we can perform a sound Bayesian analysis which incorporates highly accurate errors for each data point.
+If time allows it, we may also perform more sophisticated statistical analysis such as high order asymptotic inference.
