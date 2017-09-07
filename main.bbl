@@ -1,0 +1,229 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{arampatzis2016langevin}{article}{}
+      \name{author}{5}{}{%
+        {{hash=88e39e2ffbe69cbf9e0feb65cf8b664a}{%
+           family={Arampatzis},
+           family_i={A\bibinitperiod},
+           given={Georgios},
+           given_i={G\bibinitperiod}}}%
+        {{hash=89261ad382656592741c7f345f42b942}{%
+           family={W\"{a}lchli},
+           family_i={W\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=133cfbb41cf16d40ad7e8d9c1e1fa775}{%
+           family={Angelikopoulos},
+           family_i={A\bibinitperiod},
+           given={Panagiotis},
+           given_i={P\bibinitperiod}}}%
+        {{hash=6c87f19729725eaaea8bfa5b06aef09e}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={Stephen},
+           given_i={S\bibinitperiod}}}%
+        {{hash=d0a18518b57cef85c32665e92ec3dea1}{%
+           family={Koumoutsakos},
+           family_i={K\bibinitperiod},
+           given={Petros},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{67d185bd41f0f0cb6030e5a9eedb5447}
+      \strng{fullhash}{7b121f678c1766a2aa31503bcb2cc63e}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1610.05660}
+      \field{title}{Langevin Diffusion Transitional Markov Chain Monte Carlo with an Application to Pharmacodynamics}
+      \field{year}{2016}
+    \endentry
+    \entry{softabs}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=1982fa604a3f94837efceaa53330b2a4}{%
+           family={Betancourt},
+           family_i={B\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science + Business Media}%
+      }
+      \strng{namehash}{1982fa604a3f94837efceaa53330b2a4}
+      \strng{fullhash}{1982fa604a3f94837efceaa53330b2a4}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{title}{A General Metric for Riemannian Manifold Hamiltonian Monte Carlo}
+      \field{year}{2013}
+      \field{pages}{327\bibrangedash 334}
+      \range{pages}{8}
+    \endentry
+    \entry{kipping2013parametrizing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b7f644efef4b5048077ebbd5dfce6ca}{%
+           family={Kipping},
+           family_i={K\bibinitperiod},
+           given={David\bibnamedelima M},
+           given_i={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{8b7f644efef4b5048077ebbd5dfce6ca}
+      \strng{fullhash}{8b7f644efef4b5048077ebbd5dfce6ca}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society: Letters}
+      \field{number}{1}
+      \field{title}{Parametrizing the exoplanet eccentricity distribution with the Beta distribution}
+      \field{volume}{434}
+      \field{year}{2013}
+      \field{pages}{L51\bibrangedash L55}
+      \range{pages}{-1}
+    \endentry
+    \entry{pal2009analytical}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e91459d306cf53e514d05db8716a196f}{%
+           family={P\'{a}l},
+           family_i={P\bibinitperiod},
+           given={Andr\'{a}s},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing Ltd Oxford, UK}%
+      }
+      \strng{namehash}{e91459d306cf53e514d05db8716a196f}
+      \strng{fullhash}{e91459d306cf53e514d05db8716a196f}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{3}
+      \field{title}{An analytical solution for Kepler's problem}
+      \field{volume}{396}
+      \field{year}{2009}
+      \field{pages}{1737\bibrangedash 1742}
+      \range{pages}{6}
+    \endentry
+    \entry{1707.04962}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=50de2001427db80e57099297066636c3}{%
+           family={Panichi},
+           family_i={P\bibinitperiod},
+           given={Federico},
+           given_i={F\bibinitperiod}}}%
+        {{hash=cdf404d881f3e5415a4fb6f72ae8c30f}{%
+           family={Go\x{fffd}\x{fffd}dziewski},
+           family_i={G\bibinitperiod},
+           given={Krzysztof},
+           given_i={K\bibinitperiod}}}%
+        {{hash=8f48ab1af0ccc3086bc5052124e3de10}{%
+           family={Migaszewski},
+           family_i={M\bibinitperiod},
+           given={Cezary},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bef5ff2bd2c6f21fae1c5bbc5871dd53}{%
+           family={Szuszkiewicz},
+           family_i={S\bibinitperiod},
+           given={Ewa},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{763fa38734eb965315414c33aa08c4de}
+      \strng{fullhash}{95a66e3d58addc8c474231bf7c4038a6}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kepler-30: the Cesar of TTV variations}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb arXiv:1707.04962
+      \endverb
+    \endentry
+    \entry{papamarkou2016manifold}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5baca8fb014cdb940dfec8474aa5d54e}{%
+           family={Papamarkou},
+           family_i={P\bibinitperiod},
+           given={Theodore},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b8d84c95781e615da3df1811c7ea6061}{%
+           family={Ford},
+           family_i={F\bibinitperiod},
+           given={Eric\bibnamedelima B},
+           given_i={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ae89fe51e2c98099d12e3768d61cdd2}
+      \strng{fullhash}{3ae89fe51e2c98099d12e3768d61cdd2}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1608.07986}
+      \field{title}{Manifold Langevin Monte Carlo with Partial Metric Updates}
+      \field{year}{2016}
+    \endentry
+    \entry{1704.04290}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=b66ce7293188de21ca993b09e213e82e}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Songhu},
+           given_i={S\bibinitperiod}}}%
+        {{hash=c6bfcf742155ac54977cf2f2079a158c}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={Dong-Hong},
+           given_i={D\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=6ab475be6606f70727afc6bb9fc15f7f}{%
+           family={Barclay},
+           family_i={B\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+        {{hash=a4bcf0cf82fc35100b1007516a856278}{%
+           family={Laughlin},
+           family_i={L\bibinitperiod},
+           given={Gregory\bibnamedelima P.},
+           given_i={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e27d9426d0ee9a9d55df10e22de1e31a}
+      \strng{fullhash}{546c4a2d864afe687fafb20e8bbbd677}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Updated Masses for the TRAPPIST-1 Planets}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb arXiv:1704.04290
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

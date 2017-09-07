@@ -1,7 +1,11 @@
 \documentclass{NSF}
 
 \graphicspath{{figures/}}
+
 \usepackage{biblatex}
+\addbibresource{references.bib}
+\bibliography{references}
+
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{txfonts}
@@ -12,9 +16,8 @@
 \usepackage{pdflscape}
 \usepackage{multirow}
 \usepackage{xcolor}
-\usepackage{hyperref}
 \addbibresource{references.bib}
-\bibliography{references}
+%\bibliography{references}
 \usepackage{xspace}
 
 \def\memorl#1{\color{green}$RL[${\bf #1}$]$ \color{black}}
@@ -56,6 +59,6 @@
 % Feel Free to use whatever style you prefer
 %\bibliographystyle{IEEEtran}
 %\bibliographystyle{IEEEtran}
-%\printbibliography
+\printbibliography
 
 \end{document}

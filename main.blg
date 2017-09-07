@@ -1,0 +1,20 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'main.blg'
+[38] biber:287> INFO - === Thu Sep  7, 2017, 18:54:07
+[130] Biber.pm:348> INFO - Reading 'main.bcf'
+[274] Biber.pm:742> INFO - Found 7 citekeys in bib section 0
+[279] Biber.pm:3151> INFO - Processing section 0
+[309] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
+[321] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[331] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
+[332] Utils.pm:147> WARN - Duplicate entry key: '1704.04290' in file 'references.bib', skipping ...
+[456] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[457] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[457] Biber.pm:3028> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
+[457] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[466] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'ascii'
+[474] Utils.pm:147> WARN - The entry 'arampatzis2016langevin' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[492] Utils.pm:147> WARN - The entry 'pal2009analytical' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[498] Utils.pm:147> WARN - The entry '1707.04962' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[517] bbl.pm:615> INFO - Output to main.bbl
+[517] Biber.pm:109> INFO - WARNINGS: 4

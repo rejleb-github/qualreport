@@ -28,7 +28,12 @@ Langevin MCMC methods use the Hessian of the likelihood to efficiently explore t
 There are many ways of obtaining or implementing this information, such as using an empirical Hessian or using variational equations. 
 We hope to create an algorithm which uses this information effectively and can be parallelized in the context of exoplanets.
 
+The motivation for using \reb is to perform faster integration than TTVFast.
+The TTVFast package uses a crossing detection algorithm along with a bisection method to obtain teh exact transit time.
+We hope to obtain further speed ups by using polynomial interpolation approach instead of a bisection method.
+By doing this we can reduce the time spent integrating the N-body system as well.
+
 Once we combine data on all systems with TTV and RV, we can perform statistical inference on the individual orbital parameters.
-For example, it is believed that planetary eccentricity follows a Beta distribution [reference].
+For example, it is believed that planetary eccentricity follows a Beta distribution \cite{kipping2013parametrizing}.
 However, since we will have generated MCMC chains for all samples, we can perform a sound Bayesian analysis which incorporates highly accurate errors for each data point.
 If time allows it, we may also perform more sophisticated statistical analysis such as high order asymptotic inference.
