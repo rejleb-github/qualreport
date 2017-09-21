@@ -188,6 +188,105 @@
       \field{title}{Manifold Langevin Monte Carlo with Partial Metric Updates}
       \field{year}{2016}
     \endentry
+    \entry{poddany2010exoplanet}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ea00fecb5f681686e106fc570bd4c935}{%
+           family={Poddan\`{y}},
+           family_i={P\bibinitperiod},
+           given={Stanislav},
+           given_i={S\bibinitperiod}}}%
+        {{hash=0e7d0f34124b3e7b0f96741ab8338047}{%
+           family={Br\'{a}t},
+           family_i={B\bibinitperiod},
+           given={Lubo\v{s}},
+           given_i={L\bibinitperiod}}}%
+        {{hash=7091dd54f33915cae14c3ae8021cf6ab}{%
+           family={Pejcha},
+           family_i={P\bibinitperiod},
+           given={Ond\v{r}ej},
+           given_i={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{003cf2e7b5f22d2431c51fd241ae2f6b}
+      \strng{fullhash}{003cf2e7b5f22d2431c51fd241ae2f6b}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Astronomy}
+      \field{number}{3}
+      \field{title}{Exoplanet Transit Database. Reduction and processing of the photometric data of exoplanet transits}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{pages}{297\bibrangedash 301}
+      \range{pages}{5}
+    \endentry
+    \entry{raetz2015wasp}{article}{}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=1ff65f83f7f35153b162ee679914ef48}{%
+           family={Raetz},
+           family_i={R\bibinitperiod},
+           given={St},
+           given_i={S\bibinitperiod}}}%
+        {{hash=6eed740fec5c77dc9c3229c16ae6b211}{%
+           family={Maciejewski},
+           family_i={M\bibinitperiod},
+           given={G},
+           given_i={G\bibinitperiod}}}%
+        {{hash=1beb62f2d9f63030728d0546c5a1d557}{%
+           family={Seeliger},
+           family_i={S\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+        {{hash=7c6b64d140c6e92cd4f4637343526e6c}{%
+           family={Marka},
+           family_i={M\bibinitperiod},
+           given={C},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a653d620a9d4a4c5a3983619098a0b8c}{%
+           family={Fernandez},
+           family_i={F\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+        {{hash=75b83a42c4ba57fb1b9e0d83b6293cc0}{%
+           family={G\"{u}ver},
+           family_i={G\bibinitperiod},
+           given={T},
+           given_i={T\bibinitperiod}}}%
+        {{hash=229a75f38ddba540325c13c5db478bf4}{%
+           family={G\"{o}g\"{u}s},
+           family_i={G\bibinitperiod},
+           given={E},
+           given_i={E\bibinitperiod}}}%
+        {{hash=b3ba809bec1855c2c118d61d1bec5baf}{%
+           family={Nowak},
+           family_i={N\bibinitperiod},
+           given={G},
+           given_i={G\bibinitperiod}}}%
+        {{hash=1ac9ea2489deddf677b1699b059db020}{%
+           family={Vanko},
+           family_i={V\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+        {{hash=ff8f3913bada90bc0d06d111b5ebbe00}{%
+           family={Berndt},
+           family_i={B\bibinitperiod},
+           given={A},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a9a3b2c3a11c7f4a26d17a33c792b80}
+      \strng{fullhash}{389f1b796ba34b826d4cd9e2c82ab768}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1507.01609}
+      \field{title}{WASP-14 b: Transit Timing analysis of 19 light curves}
+      \field{year}{2015}
+    \endentry
     \entry{1704.04290}{misc}{}
       \name{author}{4}{}{%
         {{hash=b66ce7293188de21ca993b09e213e82e}{%

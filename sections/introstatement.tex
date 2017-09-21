@@ -9,15 +9,15 @@ Along with the current large datasets, future space and ground based missions wi
 
 For my thesis, I propose to write a pipeline to analyze these different dataset together to provide a self-consistent and easily reproducible analysis. 
 The long-term goal is to do this kind of analysis for an ensemble of systems and draw statistical conclusions about the planet population.
-To tightly contrain the parameter space is non-trivial because of its highly complex nature.
+To tightly constrain the parameter space is non-trivial because of its highly complex nature.
 I plan to combine the TTVFast-like algorithm with a novel MCMC to provide the fastest possible level of analysis.
 The algorithms that I plan to use will be at least as fast as TTVFast but implemented in the open source \reb rather than custom libraries.
-This makes the code highly modular with a collection of integrators available, this allows for further optemizations for accuracy or computing time.
+This makes the code highly modular with a collection of integrators available, this allows for further optimizations for accuracy or computing time.
 The MCMC considered in the pipeline will make use of a Riemannian manifold on the log likelihood space.
 
 As a first step I will reproduce the TTV masses for the Trappist 1 system. 
 I will confirm the decrease in mass when more data is added as observed in \cite{1704.04290}.
-I will try to understand if there are systematic effects favouring large masses.
+I will try to understand if there are systematic effects favoring large masses.
 In the next step, I will try to simultaneously fit RV and TTV for one system of interest. 
 The goal is two-fold:
 \begin{enumerate} 

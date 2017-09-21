@@ -15,21 +15,21 @@ With this new data in hand, we can help bridge the observational works with the 
 Rather than considering each system case by case, we hope to say more about how (in)consistent current formation theory is with regards to the set of all TTV and RV observations to date.
 \subsection{Proposed Timeline}
 \begin{itemize}
-	\item January 2017: Complete implementation of TTV.
-	\item June 2018: In-depth investigation of a particular system as a trial.
-	\item January 2018: Investigate new MCMC methods and speed optimizations.
-	\item January 2019: Create database and process large scale TTV/RV data.
-	\item December 2020: Thesis defense.
+	\item January 2018: Complete implementation of TTV and RV pipeline.
+	\item August 2018: In-depth investigation of a particular system as a trial.
+	\item April 2019: Investigate new MCMC methods and speed optimizations.
+	\item April 2020: Create database and process large scale TTV/RV data.
+	\item December 2020: Compile statistics, conclusions, and Thesis defense.
 \end{itemize}
 
 \subsection{Technical Details}
-The main technical innovation we hope to achieve is to do is to explore the use Langevin MCMC methods in the N-body family of problems. 
+The main technical innovation we hope to achieve is to explore the use Langevin MCMC methods in the N-body family of problems. 
 Langevin MCMC methods use the Hessian of the likelihood to efficiently explore the parameter space. 
 There are many ways of obtaining or implementing this information, such as using an empirical Hessian or using variational equations. 
 We hope to create an algorithm which uses this information effectively and can be parallelized in the context of exoplanets.
 
 The motivation for using \reb is to perform faster integration than TTVFast.
-The TTVFast package uses a crossing detection algorithm along with a bisection method to obtain teh exact transit time.
+The TTVFast package uses a crossing detection algorithm along with a bisection method to obtain the exact transit time.
 We hope to obtain further speed ups by using polynomial interpolation approach instead of a bisection method.
 By doing this we can reduce the time spent integrating the N-body system as well.
 

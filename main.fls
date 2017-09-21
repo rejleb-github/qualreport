@@ -263,10 +263,10 @@ INPUT sections/description.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/tcxr.tfm
+INPUT sections/support.tex
+INPUT sections/support.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/tcxr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtcxr.tfm
-INPUT sections/support.tex
-INPUT sections/support.tex
 INPUT alpha-1.png
 INPUT ./alpha-1.png
 INPUT ./alpha-1.png

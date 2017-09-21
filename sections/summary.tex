@@ -1,7 +1,7 @@
 \section{Project Summary}
 \subsection{Overview}
 While there are many methods for observing exoplanets, the ones considered in this work are transit timing variations (TTV) and radial velocity (RV). 
-TTVs are observed when at least one planet in a multiplanet system transit over a star. 
+TTVs are observed when at least one planet in a multi-planet system transit over a star. 
 In a 2-body setting the transits occur with a perfect period, but when other bodies interact with the transiting planet, we obtain variations in the transit time.
 By measuring these subtle variations in timing, we can infer the number of planets present in the system and their orbital parameters.
 Radial velocity surveys are done by measuring the Doppler shift experienced by a star as one or more exoplanets dynamically interact with it.
@@ -10,10 +10,10 @@ Radial velocity surveys are done by measuring the Doppler shift experienced by a
 Both of these discovery methods use analytical, but more often, N-body simulations to carry out inference on the orbital parameters.
 This project aims to create a unified framework to analyze TTV and RV datasets together, and perform Bayesian inference on the orbital parameters.
 This inference is typically done with Monte Carlo Markov Chains (MCMC).
-This approach is considered by other researchers in the field [reference].
+This approach is often used by researchers in the field, for example \cite{1707.04962, raetz2015wasp}.
 This pipeline will be coupled with \reb and make use of its variational equations to open up research opportunities which have not been previously considered.
 The main physics objective of the project is to discover and reanalyze planetary systems in order to do a statistical analysis on the population detectable by TTV and RV in a single unified framework 
-Some studies have benefited of additional data and revisits [reference Trappist-1 mass change].
+Some studies have benefited of additional data and revisits \cite{1704.04290}.
 This sort of analysis will allow us to probe dynamical constraints on planetary systems and provide clues on their formation process in a self-consistent manner.
 As supplementary objectives, we aim to develop faster MCMC methods with the use of second order variational equations.
 We will also explore various hybrid MCMC methods which will be optimized for this problem.
@@ -39,7 +39,7 @@ The datasets of interest are listed below.
            	 \item JWST
       		\end{enumerate}
  \end{enumerate}
-We will operate mostly on the Kepler data in hopes of finding previously missed systems with TTVs, along with the new incoming data from the JWST mission.
+We will operate mostly on the Kepler data in hopes of finding previously missed systems with TTVs, along with the new incoming data from the TESS mission. We plan on having most transit data supplied through the publicly accessible Exoplanet Transit Database \cite{poddany2010exoplanet} but are open to collaborations should the opportunity arise. Similarly for the RV data.
 
 \subsection{Intellectual Merit} 
 By refining available data and combining it with new data we may be able to make strong dynamical constraints on the planet formation process. 
